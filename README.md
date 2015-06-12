@@ -12,13 +12,16 @@ I hope you enjoy this project and learning this fine message dissemination frame
 
 ### Quickstart
 
+git clone --recursive git@github.com/synctext/DispersyExample.git DispersyExample
+cd DispersyExample
+
 Open 3 Shells and run in each;
 
 ./node1.sh  
 ./node2.sh  
 ./node3.sh
 
-Over a small amount of time you will see each node Fully Distribute the messages sent to the community instance by the clients.
+Wait for 20 seconds or so; Every 5 seconds each node will try to talk to a neighbor ("candidate" in Dispersy slang) Over a small amount of time you will see each node Fully Distribute the messages sent to the community instance by the clients.
 
 ### How does it work?
 
